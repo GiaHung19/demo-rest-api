@@ -26,5 +26,9 @@ public class HelloController {
     public String getInfo(){
         return "Truong Gia Hung - Intern Java Backend";
     }
+    @GetMapping("/goodbye")
+    public String sayBye(){
+        return "Goodbye from Spring boot";
+    }
    
 }
